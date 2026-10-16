@@ -19,8 +19,8 @@ export default function Home() {
           <div className="shooting_star" />
         </div>
         <div className="welcomes">
-          <div className="welcome_big">GOOD EVENING</div>
-          <div className="welcome_small">Which story do you want me to tell you this evening?</div>
+          <div className="welcome_big">WELCOME TO SLUMBERLY</div>
+          <div className="welcome_small">Which story shall I tell you today?</div>
         </div>
       </div>
 

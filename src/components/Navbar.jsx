@@ -3,16 +3,10 @@ import { Link } from 'react-router-dom';
 
 const NAV_LINKS = [
   { label: 'Home', to: '/' },
-  { label: 'About Us', to: '/about' },
-  { label: 'Books', to: '/books' },
-  { label: 'Profile', to: '/dashboard' },
-  { label: 'Ebooks', disabled: true },
-  { label: 'Games', disabled: true },
-  { label: 'Logout', to: '/login' },
+  { label: 'Stories', to: '/books' },
 ];
 
-const LOGO   = 'https://uk.bedtimestories.world/bedtime/images/logo.png';
-const AVATAR = 'https://pubmedia812.s3.eu-central-1.amazonaws.com/bedtime/3/RackMultipart20250724-50580-zg7w4a.png';
+const LOGO   = '/SlumberlyAI Dreamy Teddy Logo.png';
 const BEER   = 'https://uk.bedtimestories.world/bedtime/images/beer.png';
 
 export default function Navbar({ gradient = false }) {
@@ -24,11 +18,6 @@ export default function Navbar({ gradient = false }) {
       <div className={`navbox${gradient ? ' gradient_bg' : ''}`}>
         <div style={{ maxWidth: 1140, margin: '0 auto', padding: '0 15px' }}>
           <div className="navbar-inner">
-            <Link to="/dashboard">
-              <div className="avatar_icon">
-                <img src={AVATAR} alt="Avatar" />
-              </div>
-            </Link>
             <Link to="/" style={{ margin: '0 auto' }}>
               <img className="logo" src={LOGO} alt="logo" />
             </Link>
@@ -44,11 +33,6 @@ export default function Navbar({ gradient = false }) {
         <div className="mobile-menu-overlay">
           <div style={{ maxWidth: 1140, margin: '0 auto', padding: '0 15px', position: 'relative', zIndex: 6 }}>
             <div className="navbar-inner">
-              <Link to="/dashboard" onClick={() => setOpen(false)}>
-                <div className="avatar_icon">
-                  <img src={AVATAR} alt="Avatar" />
-                </div>
-              </Link>
               <Link to="/" style={{ margin: '0 auto' }} onClick={() => setOpen(false)}>
                 <img className="logo" src={LOGO} alt="logo" />
               </Link>
