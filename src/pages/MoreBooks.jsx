@@ -16,6 +16,14 @@ const ALL_BOOKS = [
   { id: 6,   title: 'Goldilocks and the Three Bears',     category: 'Fairy Tales', time: 8,  image: 'https://pubmedia812.s3.eu-central-1.amazonaws.com/talking_story/6/goldilocks_and_the_three_bears.jpg' },
   { id: 11,  title: 'Hansel and Gretel',                  category: 'Fairy Tales', time: 8,  image: 'https://pubmedia812.s3.eu-central-1.amazonaws.com/talking_story/11/hansel_and_gretel.jpg' },
   { id: 4,   title: 'Jack and the Beanstalk',             category: 'Fairy Tales', time: 8,  image: 'https://pubmedia812.s3.eu-central-1.amazonaws.com/talking_story/4/jack_and_the_beanstalk.jpg' },
+  { id: 9,   title: 'Snow White',                         category: 'Fairy Tales', time: 10, image: '/snow-white.jpg' },
+  { id: 10,  title: 'Sleeping Beauty',                    category: 'Fairy Tales', time: 9,  image: '/sleeping-beauty.jpg' },
+  { id: 12,  title: 'The Ugly Duckling',                  category: 'Fairy Tales', time: 7,  image: '/the-ugly-duckling.jpg' },
+  { id: 13,  title: 'Puss in Boots',                      category: 'Fairy Tales', time: 8,  image: '/puss-in-boots.jpg' },
+  { id: 14,  title: 'Tom Thumb',                          category: 'Fairy Tales', time: 6,  image: '/tom-thumb.jpg' },
+  { id: 15,  title: 'The Little Mermaid',                 category: 'Fairy Tales', time: 12, image: '/the-little-mermaid.jpg' },
+  { id: 17,  title: 'The Frog Prince',                    category: 'Fairy Tales', time: 7,  image: '/the-frog-prince.jpg' },
+  { id: 18,  title: 'Thumbelina',                         category: 'Fairy Tales', time: 9,  image: '/thumbelina.jpg' },
 ];
 
 const PER_PAGE = 12;

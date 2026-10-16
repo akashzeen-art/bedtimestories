@@ -24,14 +24,14 @@ export const ALL_BOOKS = [
   { id: 5,   title: 'Rapunzel',                            category: 'Fairy Tales', time: 8,  image: 'https://pubmedia812.s3.eu-central-1.amazonaws.com/talking_story/5/rapunzel.jpg' },
   { id: 7,   title: 'Pinocchio',                           category: 'Fairy Tales', time: 5,  image: 'https://pubmedia812.s3.eu-central-1.amazonaws.com/talking_story/7/pinnochio.jpg' },
   { id: 8,   title: 'Three Little Pigs',                   category: 'Fairy Tales', time: 8,  image: 'https://pubmedia812.s3.eu-central-1.amazonaws.com/talking_story/8/three_little_pigs.jpg' },
-  { id: 9,   title: 'Snow White',                          category: 'Fairy Tales', time: 10, image: 'https://pubmedia812.s3.eu-central-1.amazonaws.com/talking_story/9/snow_white.jpg' },
-  { id: 10,  title: 'Sleeping Beauty',                     category: 'Fairy Tales', time: 9,  image: 'https://pubmedia812.s3.eu-central-1.amazonaws.com/talking_story/10/sleeping_beauty.jpg' },
-  { id: 12,  title: 'The Ugly Duckling',                   category: 'Fairy Tales', time: 7,  image: 'https://pubmedia812.s3.eu-central-1.amazonaws.com/talking_story/12/the_ugly_duckling.jpg' },
-  { id: 13,  title: 'Puss in Boots',                       category: 'Fairy Tales', time: 8,  image: 'https://pubmedia812.s3.eu-central-1.amazonaws.com/talking_story/13/puss_in_boots.jpg' },
-  { id: 14,  title: 'Tom Thumb',                           category: 'Fairy Tales', time: 6,  image: 'https://pubmedia812.s3.eu-central-1.amazonaws.com/talking_story/14/tom_thumb.jpg' },
-  { id: 15,  title: 'The Little Mermaid',                  category: 'Fairy Tales', time: 12, image: 'https://pubmedia812.s3.eu-central-1.amazonaws.com/talking_story/15/the_little_mermaid.jpg' },
-  { id: 17,  title: 'The Frog Prince',                     category: 'Fairy Tales', time: 7,  image: 'https://pubmedia812.s3.eu-central-1.amazonaws.com/talking_story/17/the_frog_prince.jpg' },
-  { id: 18,  title: 'Thumbelina',                          category: 'Fairy Tales', time: 9,  image: 'https://pubmedia812.s3.eu-central-1.amazonaws.com/talking_story/18/thumbelina.jpg' },
+  { id: 9,   title: 'Snow White',                          category: 'Fairy Tales', time: 10, image: '/snow-white.jpg' },
+  { id: 10,  title: 'Sleeping Beauty',                     category: 'Fairy Tales', time: 9,  image: '/sleeping-beauty.jpg' },
+  { id: 12,  title: 'The Ugly Duckling',                   category: 'Fairy Tales', time: 7,  image: '/the-ugly-duckling.jpg' },
+  { id: 13,  title: 'Puss in Boots',                       category: 'Fairy Tales', time: 8,  image: '/puss-in-boots.jpg' },
+  { id: 14,  title: 'Tom Thumb',                           category: 'Fairy Tales', time: 6,  image: '/tom-thumb.jpg' },
+  { id: 15,  title: 'The Little Mermaid',                  category: 'Fairy Tales', time: 12, image: '/the-little-mermaid.jpg' },
+  { id: 17,  title: 'The Frog Prince',                     category: 'Fairy Tales', time: 7,  image: '/the-frog-prince.jpg' },
+  { id: 18,  title: 'Thumbelina',                          category: 'Fairy Tales', time: 9,  image: '/thumbelina.jpg' },
 ];
 
 // All books combined (no duplicates by id)
